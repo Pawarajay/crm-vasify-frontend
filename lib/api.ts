@@ -1,5 +1,5 @@
 // API configuration and utilities
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://crm-vasify-backend.onrender.com"
 
 // API response types
 interface ApiResponse<T> {
