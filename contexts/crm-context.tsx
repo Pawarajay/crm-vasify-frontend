@@ -1094,7 +1094,7 @@ export function CRMProvider({ children }: { children: React.ReactNode }) {
   const refreshUsers = async () => {
     try {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL || "https://crm-vasify-backend.onrender.com/"}/api/users`,
+        `${process.env.NEXT_PUBLIC_API_URL || "https://crm-vasify-backend.onrender.com/api"}/users`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
