@@ -235,7 +235,8 @@ import ProjectList from '@/components/projects/ProjectList';
 import ProjectForm from '@/components/projects/ProjectForm';
 
 // point to your backend
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://crm-vasify-backend.onrender.com';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://crm-vasify-backend.onrender.com/api';
+// const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
 
 export default function ProjectsPage() {
   const [projects, setProjects] = useState([]);

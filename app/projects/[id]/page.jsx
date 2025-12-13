@@ -440,7 +440,8 @@ import TimeTracking from '@/components/projects/TimeTracking';
 import NotesDiscussion from '@/components/projects/NotesDiscussion';
 
 // same backend base
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://crm-vasify-backend.onrender.com';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://crm-vasify-backend.onrender.com/api';
+// const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
 
 export default function ProjectDetailPage() {
   const params = useParams();
